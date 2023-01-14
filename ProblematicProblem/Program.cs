@@ -78,7 +78,7 @@ namespace ProblematicProblem
                 }
                 Console.Write($"Ah got it! {randomActivity}, your random activity is: {userName}! Is this ok or do you want to grab another activity? Keep/Redo: ");
                         Console.WriteLine();
-                cont = (Console.ReadLine().ToLower() == "Keep");
+                cont = (Console.ReadLine().ToLower() == "redo");
             }
         }
     }
